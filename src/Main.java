@@ -15,7 +15,8 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             if (min > array[i]) {
                 min = array[i];
-            } else if (max < array[i]) {
+            }
+            if (max < array[i]) {
                 max = array[i];
             }
         }
